@@ -109,4 +109,5 @@
 // #define WS2812_DMA_STREAM STM32_DMA1_STREAM2  // DMA stream for TIMx_UP (look up in reference manual under DMA Channel selection)
 //#define WS2812_DMA_CHANNEL 7                  // DMA channel for TIMx_UP
 //#define WS2812_EXTERNAL_PULLUP
-#define TAPPING_FORCE_HOLD
+#define TAPPING_FORCE_HOLD // remove the hold function of a dual-role key
+#define PERMISSIVE_HOLD // makes tap and hold keys work better for fast typists
